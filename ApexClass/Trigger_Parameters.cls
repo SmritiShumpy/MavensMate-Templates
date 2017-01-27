@@ -5,7 +5,7 @@
 public class Trigger_Parameters {
 
     /** 
-    * @date 11/9/2014
+    * @date 11/9/2014 
     * @description A enum that represents the trigger event.
     */
     public Enum TriggerEvent { beforeInsert, beforeUpdate, beforeDelete, afterInsert, afterUpdate, afterDelete, afterUndelete }

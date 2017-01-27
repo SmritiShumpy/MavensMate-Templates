@@ -7,7 +7,7 @@ public class Trigger_DiagnosticsInstrumentation {
 	public static Boolean DiagnosticsEnabled = Trigger_SettingsSupport.DiagnosticsEnabled;
 	public static Boolean EmailDebugInfoEnabled = Trigger_SettingsSupport.EmailDebugInfoEnabled;
 	public static String DebugInfoEmailRecipients = Trigger_SettingsSupport.DebugInfoEmailRecipients;
-	public static Integer DebugInfoMaxNum = Trigger_SettingsSupport.DebugInfoMaxNum;
+	public static Integer DebugInfoMaxNum = Trigger_SettingsSupport.DebugInfoMaxNum; 
 	public static Integer DebugInfoMaxAge = Trigger_SettingsSupport.DebugInfoMaxAge; 
 	
 	private static List<DiagnosticEntry> DiagnosticLog;

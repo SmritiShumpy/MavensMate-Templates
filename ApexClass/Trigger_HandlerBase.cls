@@ -8,7 +8,7 @@ public abstract class Trigger_HandlerBase implements Trigger_ITriggerHandler{
     private static Map<String, Boolean> isProcessing = new Map<String, Boolean>();
 
     private String sObjectTypeName;
-
+ 
     public Trigger_HandlerBase (){
         if (Trigger.old != null){
             sObjectTypeName = Trigger.old[0].getSObjectType().getDescribe().getName();

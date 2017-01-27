@@ -2,7 +2,7 @@
 * @date 11/9/2014
 * @description This class pulls from the appropriate Trigger_Settings__c record for use in the trigger framework
 */
-public class Trigger_SettingsSupport {
+public class Trigger_SettingsSupport { 
 	private static Trigger_Settings__c testconfig = null;
 	public static Boolean testKillSwitch = false;
 	public static Boolean testEmailDebugInfoLog = false;

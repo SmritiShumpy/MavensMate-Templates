@@ -6,7 +6,7 @@
 */
 public with sharing class Trigger_Factory
 {
-    public static Boolean FakeException = false;
+    public static Boolean FakeException = false; 
     public static Boolean KillSwitchEnabled = Trigger_SettingsSupport.KillSwitchEnabled; 
     public static String KillList = Trigger_SettingsSupport.KillList;
 

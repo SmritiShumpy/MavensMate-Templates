@@ -4,7 +4,7 @@
 * @description This class is a utility class that returns records diffed over a set of fields, useful for Trigger.new[Map] and Trigger.old[Map].
 */
 public with sharing class Trigger_DiffRecord {
-
+ 
     /**
     * @author Edward Rivera
     * @date 12/14/2014

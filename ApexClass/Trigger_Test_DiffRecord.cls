@@ -1,6 +1,6 @@
 @isTest
 private class Trigger_Test_DiffRecord
-{
+{ 
     @isTest
     static void testDiffRecords()
     {

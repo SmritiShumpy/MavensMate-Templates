@@ -8,7 +8,7 @@ public interface Trigger_ITriggerHandler {
 	/** 
 	* @date 11/9/2014
 	* @description Called by the trigger framework to carry out the actions after the bulk operations.
-	*/
+	*/ 
 	void bulkAfter();
 	
 	/** 
